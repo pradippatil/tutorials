@@ -1,0 +1,25 @@
+# http://go-talks.appspot.com/github.com/pradippatil/tutorials/git/GettingStarted.slide
+# http://go-talks.appspot.com/github.com/pradippatil/tutorials/git/GettingStarted.article
+Learning Git
+Getting Started
+
+25 Feb 2017
+Pradip Patil
+
+https://pradippatil.github.io
+@pradip__patil
+
+Reference book: [[https://git-scm.com/book/en/v2][Pro-Git]]
+
+* Getting Started - About Version Control
+Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.
+
+*Local*Version*Control*Systems*
+Many people’s version-control method of choice is to copy files into another directory (perhaps a time-stamped directory, if they’re clever). This approach is very common because it is so simple, but it is also incredibly error prone. It is easy to forget which directory you’re in and accidentally write to the wrong file or copy over files you don’t mean to.
+.image https://git-scm.com/book/en/v2/images/local.png _ 300
+
+
+*Centralized*Version*Control*Systems*
+.image https://git-scm.com/book/en/v2/images/centralized.png _ 300
+
+* Title of slide or section (must have asterisk)
