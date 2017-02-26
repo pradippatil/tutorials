@@ -11,15 +11,23 @@ https://pradippatil.github.io
 
 Reference book: [[https://git-scm.com/book/en/v2][Pro-Git]]
 
-* Getting Started - About Version Control
+* About Version Control
 Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.
 
-*Local*Version*Control*Systems*
-Many people’s version-control method of choice is to copy files into another directory (perhaps a time-stamped directory, if they’re clever). This approach is very common because it is so simple, but it is also incredibly error prone. It is easy to forget which directory you’re in and accidentally write to the wrong file or copy over files you don’t mean to.
-.image https://git-scm.com/book/en/v2/images/local.png _ 300
+* Local Version Control Systems
+Copy files into time-stamped directories which is error prone.
+There are also systems like RCS which uses local database to keep changes under revision control (can be found in MacOS X OS - `rcs` command)
+.image https://git-scm.com/book/en/v2/images/local.png _ 400
 
 
-*Centralized*Version*Control*Systems*
-.image https://git-scm.com/book/en/v2/images/centralized.png _ 300
+* Centralized Version Control Systems 
+Centralized Version Control Systems (CVCSs) were developed to help collaborate multiple users on different systems.
+Includes central server that keeps track of changes and multiple clients that check out files from central server.
+
+    Examples: CVS, Subversion, Perforce etc.
+.image https://git-scm.com/book/en/v2/images/centralized.png _ 400
+
+: Centralized Version Control Systems (CVCSs) were developed to help collaborate multiple users on different systems.
+: Includes central server that keeps track of changes and multiple clients that check out files from central server.
 
 * Title of slide or section (must have asterisk)
